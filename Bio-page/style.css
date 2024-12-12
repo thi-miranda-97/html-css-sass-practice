@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff7d1;
+  background-color: #563a9c;
+}
+
+nav {
+  padding: 2rem 4rem;
+  margin-bottom: 4.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #8b5dff;
+}
+
+nav > span {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+header {
+  margin-bottom: 4.8rem;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-weight: 900;
+}
+main p {
+  margin-bottom: 2.4rem;
+}
+
+hr {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  height: 1px;
+  margin-bottom: 2.4rem;
+}
+
+button {
+  background-color: #fff7d1;
+  color: #563a9c;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  padding: 2.4rem 0 4.8rem;
+  background-color: #6a42c2;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+svg:hover {
+  transform: translateY(-1.2rem);
+}
